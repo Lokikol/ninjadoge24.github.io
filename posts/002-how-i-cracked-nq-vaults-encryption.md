@@ -182,7 +182,7 @@ Messed around using passwords like `000`, `001`, `002`... to see if there was a 
   2424       |  04
   4815162342 |  cc
 
-Well, that started out interesting because the hex code is 30 for the character '0', 31 for '1', 31 for '2'... but it kinda stops making sense after '9'.
+Well, that started out interesting because the hex code is 30 for the character '0', 31 for '1', 32 for '2'... but it kinda stops making sense after '9'.
 
 Anyways, there is no point in trying to re-create the generateKey(password) method - I guess I will just have to brute-force keys from 00 to ff [i.e. from 0 to 255] till I get a valid file.
 
